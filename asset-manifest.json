@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Diana-Sawelyewa/weather-app/static/css/main.2c5978a8.css",
+    "main.js": "/Diana-Sawelyewa/weather-app/static/js/main.3196a980.js",
+    "static/media/rain.png": "/Diana-Sawelyewa/weather-app/static/media/rain.9242b00408c3f04b1c86.png",
+    "static/media/error.png": "/Diana-Sawelyewa/weather-app/static/media/error.3e7cd61cdadc704dd528.png",
+    "index.html": "/Diana-Sawelyewa/weather-app/index.html",
+    "main.2c5978a8.css.map": "/Diana-Sawelyewa/weather-app/static/css/main.2c5978a8.css.map",
+    "main.3196a980.js.map": "/Diana-Sawelyewa/weather-app/static/js/main.3196a980.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c5978a8.css",
+    "static/js/main.3196a980.js"
+  ]
+}
