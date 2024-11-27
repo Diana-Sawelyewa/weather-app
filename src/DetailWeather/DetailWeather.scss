@@ -1,0 +1,137 @@
+.detail_weather {
+    padding: 54px 48px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 30px;
+    width: 710px;
+    height: 247px;
+    background-color: rgba($color: #ffff, $alpha: 0.35);
+    border-radius: 30px;
+    margin-right: 27px;
+    .column1 {
+        width: 150px;
+        float: left;
+    }
+    .column0 {
+        margin-left: 30px;
+        width: 250px;
+        height: 120px;
+        position: relative;
+        img {
+            width: 22px;
+            height: 21px;
+            padding-left: 8px;
+            vertical-align: middle;
+        }
+        .sun {
+            position: absolute;
+            bottom: -5px;
+        }
+    }
+        .sun img {
+            width: 42px;
+            height: 40px;
+            padding-left: 0px;
+            vertical-align: middle;
+        }
+}
+
+@media (width <= 1200px){
+    .detail_weather {
+    width: 614px;
+    height: 207px;
+    padding: 44px 38px;
+    .sun img {
+        width: 32px;
+        height: 30px;
+    }
+    .column0 {
+        margin-left: 5px;
+        width: 230px;
+    }
+}}
+
+@media (width < 980px){
+    .detail_weather {
+        width: 484px;
+        height: 157px;
+        margin-right: 14px;
+        padding: 20px 28px;
+        .sun img {
+            width: 25px;
+            height: 25px;
+        }
+        .column1 {
+            width: 120px;
+        }
+        .column0 {
+            width: auto;
+            margin-left: 0;
+        }
+    }
+    }
+
+    @media (width < 756px){
+        .detail_weather {
+            width: 60%; //344px;
+            max-width: 380px;
+            //height: 157px;
+            margin-right: 2%;
+            padding: 2% 5%; //10px 14px;
+            line-height: 20px;
+            border-radius: 20px;
+            .sun img {
+                width: 20px;
+                height: 20px;
+            }
+            .column1 {
+               // width: 120px;
+            }
+            .column0 {
+                width: 100%;
+                //margin-left: 0;
+                height: 60px;
+                position: relative;
+                margin-top: 12px;
+                .sun {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+            }
+        }
+        }
+
+@media (width < 481px){
+.detail_weather {
+    width: 98%;
+    max-width: none;
+    min-width: 240px;
+    margin: 1% auto;
+    padding: 4% 5%;
+    height: auto;
+    line-height: 30px;
+    border-radius: 15px;
+    //min-width
+    .column1 {
+         width: 50%;
+         height: auto;
+     }
+     .column0 {
+        width: 100%;
+        margin-top: 8px;
+        line-height: 22px;
+        .sun {
+            width: 100%;
+            position: relative;
+            line-height: 30px;
+            margin-top: 5px;
+        }
+        .sun img {
+            width: 28px;
+            height: 28px;
+        }
+     }
+}
+    }
+

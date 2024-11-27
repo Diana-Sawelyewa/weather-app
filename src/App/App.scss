@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+div, span {
+  cursor: default;
+}
+
+img {
+  user-select: none;
+}
+
+
+
+
+.App {
+  font-family: "Nunito";
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  overflow: hidden;
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (width <= 1200px){
+  .App {
+  font-size: 15px;
+}
+  }
+
+@media (width < 980px){
+  .App {
+  font-size: 13px;
+}
+  }
+
+@media (width < 756px){
+  .App {
+  font-size: 11px;
+}
+  }
+
+@media (width < 481px){
+  .App {
+  font-size: 16px;
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+  }
+
+
+
+
+
